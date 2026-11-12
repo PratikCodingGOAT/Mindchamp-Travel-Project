@@ -1,0 +1,78 @@
+<!doctype>
+<html>
+<head>
+<title> Register Today </title>
+<style>
+td {
+  padding: 5px 50px;
+}
+
+td.large-padding {
+  padding: 0px 250px; /* Adjust the pixel size as needed */
+}
+
+.image-container {
+    position: relative;   /* This is the secret—it anchors the text to the box */
+    display: inline-block;
+}
+
+.text-overlay {
+    position: absolute;   /* This pulls the text out of line and floats it on top */
+    top: 50%;             /* Push down 50% from the top */
+    left: 50%;            /* Push right 50% from the left */
+    transform: translate(-50%, -50%); /* Centers the text perfectly */
+</style>
+</head>
+<body>
+
+
+<nav>
+<center>
+<table style="background-color: #0B2239; color: white;">
+    <tr>
+        <td class = "large-padding"> <h2>Pratik's Travel Agency</h2> </td>
+        <td> <img src = "logo.png" width = 50 height = 50> </img> </td>
+        <td> <h4> <a href = "index.html" style="color: white; text-decoration: none;"> Home </a></h4></td>
+        <td> <h4> <a href = "featured.html" style="color: white; text-decoration: none;"> Top Destinations </a></h4></td>
+        <td> <h4> <a href = "register.html" style="color: white; text-decoration: none;"> Register Today </a></h4></td>
+        <td> <h4> <a href = "reviews.html" style="color: white; text-decoration: none;"> Reviews </a></h4></td>
+        <td> <h4> <a href = "aboutus.html" style="color: white; text-decoration: none;"> About Us </a></h4></td>
+    </tr>
+</table>
+</center>
+</nav>
+
+    <form name = "Register" method = "post" action = "https://docs.google.com/forms/d/1wdItrMjHscESfbTq4GoCaWthV-YbMMeQ-2XzO07P3Q4/">
+        <table width = "20%" align = "center"> 
+        <tr>
+            <td> <b> <h3> Register Today! </h3> </b> </td>
+        </tr>
+        <tr>.
+            <td> Full Name <input type = "text" size = 25 name = "entry.1933871184"> </input> </td> <br> <br> 
+        </tr>
+        <tr>
+            <td> Select Birthday <input type = "date" size = 25 name = "entry.671448603">  </input> </td> <br> <br>
+        </tr>
+        <tr>
+            <td> Enter Gmail <input type = "email" size = 25 name = "entry.880171128">  </input> </td> <br> <br>
+        </tr>
+        <tr>
+            <td> Enter Phone Number <input type = "tel" size = 25 name = "entry.1747185409">  </input> </td> <br> <br>
+        </tr>
+        <tr>
+            <td> Enter Bank Account <input type = "number" size = 25 name = "entry.1953808893">  </input> </td> <br> <br>
+        </tr>
+        <tr>
+            <td> Enter Confirm Password <input type = "password" size = 25 name = "entry.1922970397">  </input> </td> <br> <br>
+        </tr>
+        <tr>
+            <td> Check if You Agree to Sign Up <input type = "checkbox" size = 25 name = "entry.1134643169">  </input> </td> <br> <br>
+        </tr>
+        <tr>
+            <td><input type = "reset">  </input>
+            <input type = "submit" value = "Login">  </input> </td>
+        </tr>
+    </form>
+
+</body>    
+</html>
